@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "637145146441",
+    "project_id": "cloud-messenging-b196f",
+    "storage_bucket": "cloud-messenging-b196f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:637145146441:android:88b11efa2c843942aa8b98",
+        "android_client_info": {
+          "package_name": "com.example.notificaciones"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDhOSStsF3PnfZcHo3SKs2Ik4vCxeydEvI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
