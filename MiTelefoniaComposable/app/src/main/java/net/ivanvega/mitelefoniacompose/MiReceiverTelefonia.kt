@@ -28,12 +28,12 @@ try {
     }
     private fun enviarMensaje(context: Context, phoneNumber: String?) {
         val smsManager = SmsManager.getDefault()
-        val message = "Recibiste una llamada del número: $phoneNumber"
+        val message = "RECIBISTE UNA LLAMADA DE EL NUMERO: $phoneNumber"
         val recipientNumber = "4451129186"
 
         try {
             smsManager.sendTextMessage(recipientNumber, null, message, null, null)
-            Toast.makeText(context, "Mensaje enviado a $recipientNumber", Toast.LENGTH_SHORT).show()
+            Toast.makeText(context, "MENSAJE ENVIADO A: $recipientNumber", Toast.LENGTH_SHORT).show()
         } catch (e: Exception) {
             Toast.makeText(context, "Error al enviar el mensaje", Toast.LENGTH_SHORT).show()
             Log.e("MiReceiverTelefonia", "Error al enviar el mensaje", e)

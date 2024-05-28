@@ -36,8 +36,7 @@
     import androidx.compose.ui.unit.dp
     import androidx.core.content.ContextCompat
     import androidx.lifecycle.viewmodel.viewModelFactory
-    import kotlinx.coroutines.channels.Channel
-    import net.ivanvega.mitelefoniacompose.SCREEN.PantallaPrincipal
+    import kotlinx.coroutines.channels.Channel 
     import net.ivanvega.mitelefoniacompose.ui.theme.MiTelefoniaComposeTheme
 
     class MainActivity : ComponentActivity() {
@@ -50,8 +49,6 @@
                         modifier = Modifier.fillMaxSize(),
                         color = MaterialTheme.colorScheme.background
                     ) {
-                        val viewModel =  ScreenViewModel()
-                       // HomeScreen(viewModel = viewModel,this)
 
                         RequestPermissionAndRegisterReceiver()
                     }
